@@ -1,0 +1,23 @@
+p#paragraph1{
+    display: inline;
+}
+p#paragraph2{
+    display: block;
+}
+p#paragraph3{
+    display: inline-block;
+}
+.nav {
+    background-color: aqua;
+    overflow: hidden;
+    padding: 5px;
+    padding: 20%;
+    list-style-type: none;
+    text-align: right;
+    font-size: 500px;
+}
+.nav li{
+    display: inline-block;
+    font-size: 500px;
+    padding-left: 500px;
+}
