@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaandam homepage</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+        <section class="Logo">
+            <a href="index.html">
+                <img class="imglogo" src="images/Logo.png" alt="Logo" title="Logo">
+            </a>
+        </section>
+    <nav class="topnav">
+        <ul><a href="index.html">Homepage</a></ul>
+        <ul><a href="activities.html">Activities</a></ul>
+        <ul><a href="publictransport.html">Public Transport</a></ul>
+        <ul><a href="zaanseschans.html">Zaanse Schans</a></ul>
+        <ul><a href="history.html">History</a></ul>
+        <ul class="active"><a href="contact.html" class="active">Contact</a></ul>
+    </nav>
+</header>
+<body>
+    <section class="flexbox-item">
+        <h1>Contact</h1>
+        <p class="leftside">
+        Fill in the contact form below to contact us! Make sure the information is correct before submitting! Thank you for vising our webpage.
+        </p>
+            <form class="contactformcontainer" action="https://coolinhollanddemo.azurewebsites.net" method="post">
+                <strong class="contactformtitle">Contact form</strong>
+                <label class="formtitle" for="title">Select title*</label>
+                <table class="contactformtable">
+                    <tr>
+                        <td>Mr</td>
+                        <td><input type="radio" name="title" value="Mr"></td>
+                    </tr>
+                    <tr>
+                        <td>Mrs</td>
+                        <td><input type="radio" name="title" value="Mrs"></td>
+                    </tr>
+                    <tr>
+                        <td>Other</td>
+                        <td><input type="radio" name="title" value="Other"></td>
+                    </tr>
+                </table>
+                <section class="inputboxes">
+                    <section class="contactformtable">
+                        <label class="formleft" for="name">name*</label><br>
+                        <input type="text" name="name" placeholder="John Doe"><br><br>
+                    </section>
+                    <section class="contactformtable">
+                    <label class="formleft" for="email">email*</label><br>
+                    <input type="email" name="email" placeholder="johndoe@gmail.com"><br><br>
+                    </section>
+                    <section class="contactformtable">
+                        <label class="formleft" for="phonenumber">phonenumber</label><br>
+                        <input type="tel" name="phonenumber" placeholder="+316123456789"><br><br>
+                        </section>
+                    <section class="contactformtable">
+                    <label class="formleft" for="text">Text here!</label><br>
+                    <textarea class="textbox" type="text" name="message" placeholder="Enter your question/request here!"></textarea>
+                    </section>
+                </section>
+                <button class="submitbutton" type="sumbit" value="sumbit">Send</button>
+            </form>   
+    </section>
+    <section class="rightside">
+        <img class="historyimages" src="images/contact.jpg" alt="Contact image" title="Contact image">
+    </section>
+</body>
+<footer>
+    <p class="copyright">
+        &#169 All copy rights reserved 2023
+    </p>
+    <ul class="footerul1">
+        <li><a class="active" href="index.html">Homepage</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="publictransport.html">Public Transport</a></li>
+    </ul>
+    <ul class="footerul">
+        <li><a href="zaanseschans.html">Zaanse Schans</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</footer>
+</html>
